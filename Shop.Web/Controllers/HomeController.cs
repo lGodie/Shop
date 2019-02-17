@@ -10,6 +10,7 @@ namespace Shop.Web.Controllers
 {
     public class HomeController : Controller
     {
+        //comentario
         public IActionResult Index()
         {
             return View();
