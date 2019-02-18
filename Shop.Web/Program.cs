@@ -1,5 +1,4 @@
-﻿using System;
-namespace Shop.Web
+﻿namespace Shop.Web
 {
     using Data;
     using Microsoft.AspNetCore;
@@ -29,6 +28,4 @@ namespace Shop.Web
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
     }
-
-
 }
